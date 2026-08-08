@@ -44,32 +44,32 @@ const AUTOMATION_PROJECTS = [
     id: "trello-tech-talks",
     title: "Tech Talks Event Planning",
     tool: "Trello",
-    description: "End to end event planning board covering scheduling, tasks, and follow up for a technical speaker series.",
-    image: null,
+    description: "End to end event planning board covering catering, keynote speakers, audio/visual setup, team meetings, and follow ups for a technical speaker series.",
+    image: "assets/img/projects/automation/trello-tech-talks.png",
     date: "2023-02"
   },
   {
     id: "trello-bible-stories",
     title: "Creation of Bible Stories Channel",
     tool: "Trello",
-    description: "Content planning and production workflow for a faith based media channel, from scripting through publishing.",
-    image: null,
+    description: "Content planning and production workflow for a faith based media channel, tracking team roles, scripting, and social media distribution from research through publishing.",
+    image: "assets/img/projects/automation/trello-bible-stories.png",
     date: "2023-06"
   },
   {
     id: "trello-thesis",
     title: "Thesis Project Workflow Planning",
     tool: "Trello",
-    description: "Research and writing workflow broken into tracked stages and milestones from proposal to final submission.",
-    image: null,
+    description: "Research workflow for an AI thesis project, tracking milestones from the foundational prediction model through WebGL interface development and LLM-based explanation integration.",
+    image: "assets/img/projects/automation/trello-thesis.png",
     date: "2022-11"
   },
   {
     id: "jira-trendzy",
     title: "Trendzy Website Redesign",
     tool: "Jira",
-    description: "Website redesign project tracked through structured sprints and issue boards from discovery to launch.",
-    image: null,
+    description: "Website redesign project tracked through structured sprints and a backlog of design, content, and mobile functionality issues from discovery to launch.",
+    image: "assets/img/projects/automation/jira-trendzy.jpg",
     date: "2025-01"
   }
 ];

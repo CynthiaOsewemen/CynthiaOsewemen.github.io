@@ -65,13 +65,15 @@ DATA_PROJECTS = [
                       "React and Node.js remained the most widely adopted frameworks",
                       "Most respondents were 25 to 34 years old and held a Bachelor's degree or higher"]),
     dict(id="sales-dashboard", title="Sales Dashboard Analysis",
-         subtitle="Executive Power BI dashboard for revenue and profit performance",
-         tools=["Power BI", "Power Query"],
+         subtitle="Executive Power BI dashboard for revenue, profit, and regional performance",
+         tools=["Power BI", "DAX"],
          images=["assets/img/projects/sales-dashboard/dashboard-1.jpg"],
-         problem="Leadership needed a single executive view of revenue, profit, and order volume trends to guide pricing and inventory decisions.",
-         whatIDid=["Built an executive Power BI dashboard tracking revenue, profit, quantity sold, and average order value",
-                   "Modeled monthly revenue trends and revenue by segment for at-a-glance performance review"],
-         stats=[("$2.30M", "Total Revenue"), ("$286.4K", "Total Profit"), ("37.87K", "Units Sold")]),
+         problem="Leadership needed a clear visual summary of overall business performance in Power BI. Monthly revenue trends revealed a decline in recent months, signaling a need to investigate sales strategies or seasonal factors.",
+         whatIDid=["Built an executive dashboard surfacing Total Revenue, Profit, Quantity Sold, and Average Order Value front and center for rapid decision making",
+                   "Added dynamic filtering by Region and Category so stakeholders can drill into the insights they need",
+                   "Identified the West and East regions as revenue leaders, with the Consumer segment accounting for the largest share of sales",
+                   "Found Technology and Office Supplies as the top-performing categories, with product TEC-CO-10004722 alone contributing over $61K in revenue"],
+         stats=[("$2.30M", "Total Revenue"), ("$286.4K", "Total Profit"), ("37.87K", "Units Sold"), ("$458.61", "Avg Order Value")]),
     dict(id="attrition", title="ALIJAZ Attrition Analytics Dashboard",
          subtitle="HR analytics exploring workforce attrition and retention",
          tools=["Excel", "Data Visualization"],
@@ -155,17 +157,17 @@ AUTOMATION_PROJECTS = [
          description="Migrated Excel based tracking into a structured, automated project board, improving reporting consistency.",
          image="assets/img/projects/automation/monday-excel.png"),
     dict(id="trello-tech-talks", title="Tech Talks Event Planning", tool="Trello",
-         description="End to end event planning board covering scheduling, tasks, and follow up for a technical speaker series.",
-         image=None),
+         description="End to end event planning board covering catering, keynote speakers, audio/visual setup, team meetings, and follow ups for a technical speaker series.",
+         image="assets/img/projects/automation/trello-tech-talks.png"),
     dict(id="trello-bible-stories", title="Creation of Bible Stories Channel", tool="Trello",
-         description="Content planning and production workflow for a faith based media channel, from scripting through publishing.",
-         image=None),
+         description="Content planning and production workflow for a faith based media channel, tracking team roles, scripting, and social media distribution from research through publishing.",
+         image="assets/img/projects/automation/trello-bible-stories.png"),
     dict(id="trello-thesis", title="Thesis Project Workflow Planning", tool="Trello",
-         description="Research and writing workflow broken into tracked stages and milestones from proposal to final submission.",
-         image=None),
+         description="Research workflow for an AI thesis project, tracking milestones from the foundational prediction model through WebGL interface development and LLM-based explanation integration.",
+         image="assets/img/projects/automation/trello-thesis.png"),
     dict(id="jira-trendzy", title="Trendzy Website Redesign", tool="Jira",
-         description="Website redesign project tracked through structured sprints and issue boards from discovery to launch.",
-         image=None),
+         description="Website redesign project tracked through structured sprints and a backlog of design, content, and mobile functionality issues from discovery to launch.",
+         image="assets/img/projects/automation/jira-trendzy.jpg"),
 ]
 
 NAV_ITEMS = [
@@ -208,6 +210,7 @@ FOOTER = """<footer class="site-footer">
           <a href="https://github.com/CynthiaOsewemen" target="_blank" rel="noopener">GitHub</a>
           <a href="https://www.youtube.com/@Alijazdiary" target="_blank" rel="noopener">YouTube: Alijaz Diary</a>
           <a href="https://selar.com/m/Cynthia497" target="_blank" rel="noopener">Selar Shop</a>
+          <a href="https://www.upwork.com/freelancers/~01b94bdc566c6bc6d1" target="_blank" rel="noopener">Upwork</a>
           <a href="https://www.instagram.com/grow_withcynthia" target="_blank" rel="noopener">GrowWithCynthia on Instagram</a>
           <a href="https://www.facebook.com/Growwithcynthia" target="_blank" rel="noopener">GrowWithCynthia on Facebook</a>
         </div>

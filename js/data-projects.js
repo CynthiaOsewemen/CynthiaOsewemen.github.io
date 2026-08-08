@@ -123,21 +123,24 @@ const DATA_PROJECTS = [
   {
     id: "sales-dashboard",
     title: "Sales Dashboard Analysis",
-    subtitle: "Executive Power BI dashboard for revenue and profit performance",
-    tools: ["Power BI", "Power Query"],
+    subtitle: "Executive Power BI dashboard for revenue, profit, and regional performance",
+    tools: ["Power BI", "DAX"],
     images: ["assets/img/projects/sales-dashboard/dashboard-1.jpg"],
-    problem: "Leadership needed a single executive view of revenue, profit, and order volume trends to guide pricing and inventory decisions.",
+    problem: "Leadership needed a clear visual summary of overall business performance in Power BI. Monthly revenue trends revealed a decline in recent months, signaling a need to investigate sales strategies or seasonal factors.",
     whatIDid: [
-      "Built an executive Power BI dashboard tracking revenue, profit, quantity sold, and average order value",
-      "Modeled monthly revenue trends and revenue by segment for at-a-glance performance review"
+      "Built an executive dashboard surfacing Total Revenue, Profit, Quantity Sold, and Average Order Value front and center for rapid decision making",
+      "Added dynamic filtering by Region and Category so stakeholders can drill into the insights they need",
+      "Identified the West and East regions as revenue leaders, with the Consumer segment accounting for the largest share of sales",
+      "Found Technology and Office Supplies as the top-performing categories, with product TEC-CO-10004722 alone contributing over $61K in revenue"
     ],
     stats: [
       { value: "$2.30M", label: "Total Revenue" },
       { value: "$286.4K", label: "Total Profit" },
-      { value: "37.87K", label: "Units Sold" }
+      { value: "37.87K", label: "Units Sold" },
+      { value: "$458.61", label: "Avg Order Value" }
     ],
     featured: false,
-    date: "2026-03"
+    date: "2025-03"
   },
   {
     id: "attrition",
