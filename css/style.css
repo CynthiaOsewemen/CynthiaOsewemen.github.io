@@ -119,6 +119,10 @@ nav.main-nav a:hover, nav.main-nav a.active { color: var(--teal); }
   margin: 5px 0;
   transition: .2s;
 }
+.header-social { display: flex; align-items: center; gap: 14px; }
+.header-social a { color: var(--navy); display: flex; transition: .15s; }
+.header-social a:hover { color: var(--teal); }
+.header-social svg { width: 18px; height: 18px; }
 
 /* Hero */
 .hero {
@@ -532,6 +536,7 @@ footer a { color: var(--gold-light); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-photo { width: 100%; height: 320px; }
   .hero-badge { left: 0; }
+  .header-social { display: none; }
 }
 
 /* Sub-page header banner */
