@@ -29,6 +29,7 @@
         ${whatIDidHtml}
         ${resultsHtml}
         ${statsHtml}
+        <a href="projects/${p.id}.html" class="pcard-detail-link">View Full Case Study</a>
       </div>
     </article>`;
   }
@@ -43,6 +44,7 @@
         <div class="pcard-tools"><span>${p.tool}</span></div>
         <h3>${p.title}</h3>
         <div class="pcard-block"><p>${p.description}</p></div>
+        <a href="projects/${p.id}.html" class="pcard-detail-link">View Full Case Study</a>
       </div>
     </article>`;
   }

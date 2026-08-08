@@ -395,6 +395,15 @@ nav.main-nav a:hover, nav.main-nav a.active { color: var(--teal); }
 .pcard-stats .stat-pill { min-width: 76px; padding: 8px 12px; }
 .pcard-stats .stat-pill b { font-size: 1.05rem; }
 .pcard-category { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--teal); margin-bottom: 8px; display: block; }
+.pcard-detail-link {
+  display: inline-block;
+  margin-top: auto;
+  padding-top: 16px;
+  font-size: .88rem;
+  font-weight: 700;
+  color: var(--teal);
+}
+.pcard-detail-link:hover { text-decoration: underline; }
 .no-results { text-align: center; color: var(--muted); padding: 48px 0; font-size: .95rem; }
 
 /* Book cards as clickable image tiles */
@@ -655,3 +664,60 @@ footer.site-footer {
   font-size: .82rem;
 }
 .footer-bottom a { color: var(--gold-light); }
+
+/* Project detail pages */
+.breadcrumb { font-size: .85rem; color: var(--muted); margin-bottom: 18px; }
+.breadcrumb a { color: var(--teal); font-weight: 600; }
+.breadcrumb a:hover { text-decoration: underline; }
+.detail-category { color: var(--teal); }
+.detail-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin: 32px 0 8px;
+}
+.detail-gallery.single { grid-template-columns: minmax(0, 720px); }
+.detail-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.detail-noimg {
+  aspect-ratio: 16/9;
+  background: var(--navy-light);
+  color: var(--gold-light);
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Fraunces", serif; font-size: 1.3rem; text-align: center; padding: 32px;
+  border-radius: 10px;
+  margin: 32px 0 8px;
+}
+.detail-tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 32px; }
+.detail-tools span {
+  font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+  background: var(--gold-light); color: var(--gold); padding: 6px 12px; border-radius: 7px;
+}
+.detail-section { max-width: 760px; margin-bottom: 40px; }
+.detail-section h3 { font-size: 1.3rem; margin-bottom: 14px; }
+.detail-section p { color: var(--ink); font-size: 1rem; }
+.detail-section ul { display: grid; gap: 10px; list-style: disc; padding-left: 20px; }
+.detail-section li { color: var(--ink); font-size: .98rem; }
+.detail-section li::marker { color: var(--teal); }
+.detail-stats { display: flex; gap: 16px; flex-wrap: wrap; margin: 8px 0 40px; }
+.detail-stats .stat-pill { min-width: 110px; padding: 16px 20px; }
+.detail-stats .stat-pill b { font-size: 1.5rem; }
+.detail-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.detail-nav a { font-size: .9rem; font-weight: 600; color: var(--teal); }
+.detail-nav a:hover { text-decoration: underline; }
+
+@media (max-width: 560px) {
+  .detail-stats { gap: 10px; }
+  .detail-stats .stat-pill { min-width: 90px; padding: 12px 14px; }
+}
