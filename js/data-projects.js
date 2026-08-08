@@ -266,14 +266,15 @@ const DATA_PROJECTS = [
   },
   {
     id: "covid-dashboard",
-    title: "COVID-19 Data Analysis Dashboard",
-    subtitle: "Exploratory analysis of global COVID-19 case data",
-    tools: ["Python", "Pandas"],
-    images: [],
-    problem: "Understanding how global COVID-19 case trends evolved required cleaning and exploring a large, messy public dataset.",
+    title: "Canada COVID-19 Health Data Dashboard",
+    subtitle: "Interactive Dash application tracking national and regional COVID-19 trends",
+    tools: ["Python", "Pandas", "Plotly", "Dash"],
+    images: ["assets/img/projects/covid-dashboard/dashboard-1.jpg"],
+    problem: "Understanding how COVID-19 outcomes varied across Canadian regions, age groups, and gender required cleaning a large Statistics Canada dataset and making it explorable for non-technical users.",
     whatIDid: [
-      "Cleaned and explored global COVID-19 case data using Python and Pandas",
-      "Built exploratory visualizations and a dashboard script to track case trends over time"
+      "Cleaned and deduplicated a Statistics Canada COVID-19 dataset using Python and Pandas",
+      "Built an interactive Dash web application with a year filter and linked Plotly charts",
+      "Delivered views for reported cases by region, nationwide year-over-year trend, age group, and outcome"
     ],
     featured: false,
     date: "2025-06"
