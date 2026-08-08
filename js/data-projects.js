@@ -144,7 +144,7 @@ const DATA_PROJECTS = [
     title: "ALIJAZ Attrition Analytics Dashboard",
     subtitle: "HR analytics exploring workforce attrition and retention",
     tools: ["Excel", "Data Visualization"],
-    images: ["assets/img/projects/attrition/dashboard-1.png"],
+    images: ["assets/img/projects/attrition/dashboard-1.jpg"],
     problem: "HR leadership needed to understand which departments, age groups, and demographics were driving employee attrition to target retention efforts.",
     whatIDid: [
       "Analyzed attrition across 1,470 employees by department, age group, gender, and marital status",
@@ -248,11 +248,18 @@ const DATA_PROJECTS = [
     title: "Logistics Sales Dashboard, Alijaz Analytics",
     subtitle: "US regional sales performance and customer behavior analysis",
     tools: ["Excel", "Power Query"],
-    images: [],
+    images: ["assets/img/projects/logistics-sales/dashboard-1.jpg"],
     problem: "Leadership needed to understand sales performance across US states to uncover customer behavior and product performance trends.",
     whatIDid: [
       "Cleaned and transformed raw sales data in Excel for accuracy and consistency",
-      "Built an interactive dashboard tracking regional and product performance to guide business decisions"
+      "Built an interactive dashboard tracking order volume, sales trends, top states, and top customers",
+      "Surfaced sub-category performance by sales and profit, and segment mix, to guide regional and product decisions"
+    ],
+    stats: [
+      { value: "$1.36M", label: "Total Sales" },
+      { value: "5,968", label: "Total Ordered" },
+      { value: "774", label: "Total Customers" },
+      { value: "$164K", label: "Profit" }
     ],
     featured: false,
     date: "2025-05"
