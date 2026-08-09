@@ -175,7 +175,7 @@ NAV_ITEMS = [
     ("../about.html", "About"),
     ("../portfolio.html", "Portfolio"),
     ("../financial-advisory.html", "Financial Advisory"),
-    ("../books.html", "Books"),
+    ("../shop.html", "My Shop"),
     ("../youtube.html", "YouTube"),
     ("../contact.html", "Contact"),
 ]
