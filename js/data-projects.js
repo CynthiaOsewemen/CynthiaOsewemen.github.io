@@ -1,5 +1,33 @@
 const DATA_PROJECTS = [
   {
+    id: "retailmax",
+    title: "RetailMax",
+    subtitle: "Revenue Intelligence and Customer Profitability Optimization, a five-dashboard Power BI analytics solution",
+    tools: ["Power BI", "DAX", "Data Modeling"],
+    images: [
+      "assets/img/projects/retailmax/executive-overview.png",
+      "assets/img/projects/retailmax/customer-intelligence.png",
+      "assets/img/projects/retailmax/pricing-margin.png",
+      "assets/img/projects/retailmax/product-channel.png",
+      "assets/img/projects/retailmax/revenue-risk.png"
+    ],
+    problem: "RetailMax needed a centralized way to understand revenue and profitability, customer value and loyalty, discount effectiveness, category, channel, and store performance, and the financial exposure tied to returned and cancelled orders. The project also surfaced KPI and data quality issues that needed validation before executive use.",
+    whatIDid: [
+      "Designed a five-page connected dashboard architecture covering enterprise performance, customer intelligence, pricing and margin, product and channel performance, and revenue risk",
+      "Built executive KPI cards, customer segmentation and loyalty analysis, discount band analysis, and Top 10 store rankings",
+      "Configured interactive slicers across Year, Region, Category, Sales Channel, Order Status, Customer Segment, Loyalty Status, and Age Group",
+      "Built an explicit QA layer flagging measures requiring reconciliation rather than silently changing source values"
+    ],
+    stats: [
+      { value: "£102.63M", label: "Total Revenue" },
+      { value: "£31.96M", label: "Total Profit" },
+      { value: "92.89%", label: "Profit Margin" },
+      { value: "£68.22M", label: "Revenue at Risk" }
+    ],
+    featured: true,
+    date: "2026-08"
+  },
+  {
     id: "northbridge",
     title: "NorthBridge Health Services",
     subtitle: "SLA and Operational Intelligence Platform for a UK healthcare BPO",

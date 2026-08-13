@@ -726,3 +726,51 @@ footer.site-footer {
   .detail-stats { gap: 10px; }
   .detail-stats .stat-pill { min-width: 90px; padding: 12px 14px; }
 }
+
+/* Scrollable dashboard gallery */
+.scroll-hint {
+  font-size: .82rem;
+  color: var(--teal);
+  font-weight: 600;
+  margin: 32px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dash-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) var(--line);
+}
+.dash-scroll::-webkit-scrollbar { height: 8px; }
+.dash-scroll::-webkit-scrollbar-track { background: var(--line); border-radius: 4px; }
+.dash-scroll::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 4px; }
+.dash-slide {
+  flex: 0 0 88%;
+  scroll-snap-align: start;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.dash-slide img { width: 100%; display: block; }
+.dash-slide-label {
+  padding: 12px 18px;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--navy);
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dash-slide-label span.page-num { color: var(--muted); font-weight: 500; }
+@media (max-width: 700px) {
+  .dash-slide { flex-basis: 94%; }
+}
