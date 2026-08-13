@@ -60,10 +60,9 @@ const DATA_PROJECTS = [
     subtitle: "Production downtime root cause analysis recovering roughly $800K in annual value",
     tools: ["SQL Server", "Power BI", "DAX", "Power Query", "Excel"],
     images: [
-      "assets/img/projects/greentech/dashboard-1.png",
-      "assets/img/projects/greentech/dashboard-2.png",
-      "assets/img/projects/greentech/dashboard-3.png",
-      "assets/img/projects/greentech/dashboard-4.png"
+      "assets/img/projects/greentech/downtime-factor-overview.png",
+      "assets/img/projects/greentech/downtime-duration-analysis.png",
+      "assets/img/projects/greentech/operator-scheduling.png"
     ],
     problem: "GreenTech was losing an estimated $1.5M annually to production downtime, with no visibility into whether operators, scheduling, or equipment reliability were driving the losses. After analyzing 645 production batches over a six month period, 56 percent of batches experienced delays, and operator-related issues accounted for nearly 70 percent of downtime events, the largest controllable factor. Scheduling conflicts occurred on 51 production days, and one production line alone accounted for 191 hours of lost production time.",
     whatIDid: [
